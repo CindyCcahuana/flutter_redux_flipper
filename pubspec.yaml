@@ -1,0 +1,78 @@
+name: mnsolutions
+description: A new Flutter project.
+publish_to: "none"
+
+version: 0.0.1+1
+
+environment:
+  sdk: ">=2.19.4 <3.0.0"
+
+dependencies:
+  camera: ^0.10.5+2
+  carousel_slider: ^4.2.1
+  cloud_firestore: ^4.8.3
+  dynamic_color: ^1.6.6
+  firebase_auth: ^4.7.0
+  firebase_core: ^2.15.0
+  firebase_storage: ^11.2.5
+  flipperkit_redux_middleware: ^0.1.0
+  flutter:
+    sdk: flutter
+  flutter_facebook_auth: ^3.5.0
+  flutter_flipperkit: ^0.0.29
+  flutter_hooks: ^0.16.0
+  flutter_redux: ^0.10.0
+  flutter_redux_navigation: ^0.7.1
+  google_sign_in: ^6.1.4
+  mercadopago_by_binnicordova:
+    path: ../mercadopago_checkouts
+  path_provider: ^2.0.15
+  redux: ^5.0.0
+  redux_persist: ^0.9.0
+  redux_thunk: ^0.4.0
+  validatorless: ^1.2.3
+  video_player: ^2.6.1
+
+dev_dependencies:
+  flutter_launcher_icons: ^0.13.1
+  flutter_lints: ^2.0.0
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
+
+  # To add assets to your application, add an assets section, like this:
+  assets:
+    - assets/images/
+
+  fonts:
+    - family: SFProDisplay
+      fonts:
+        - asset: assets/fonts/SF-Pro-Display-Black.ttf
+        - asset: assets/fonts/SF-Pro-Display-BlackItalic.ttf
+        - asset: assets/fonts/SF-Pro-Display-Bold.ttf
+        - asset: assets/fonts/SF-Pro-Display-BoldItalic.ttf
+        - asset: assets/fonts/SF-Pro-Display-Heavy.ttf
+        - asset: assets/fonts/SF-Pro-Display-HeavyItalic.ttf
+        - asset: assets/fonts/SF-Pro-Display-Light.ttf
+        - asset: assets/fonts/SF-Pro-Display-LightItalic.ttf
+        - asset: assets/fonts/SF-Pro-Display-Medium.ttf
+        - asset: assets/fonts/SF-Pro-Display-MediumItalic.ttf
+        - asset: assets/fonts/SF-Pro-Display-Regular.ttf
+        - asset: assets/fonts/SF-Pro-Display-RegularItalic.ttf
+        - asset: assets/fonts/SF-Pro-Display-Semibold.ttf
+        - asset: assets/fonts/SF-Pro-Display-SemiboldItalic.ttf
+        - asset: assets/fonts/SF-Pro-Display-Thin.ttf
+        - asset: assets/fonts/SF-Pro-Display-ThinItalic.ttf
+        - asset: assets/fonts/SF-Pro-Display-Ultralight.ttf
+        - asset: assets/fonts/SF-Pro-Display-UltralightItalic.ttf
+          style: normal
+
+flutter_icons:
+  image_path: "assets/icon/launcher_icon.png"
+  adaptive_icon_foreground: "assets/icon/adaptive_launcher_icon.png"
+  adaptive_icon_background: "#f2f2f2"
+  android: true
+  ios: true
+  remove_alpha_ios: true
